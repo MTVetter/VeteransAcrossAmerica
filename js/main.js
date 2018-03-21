@@ -31,7 +31,7 @@ translate = "translate(" + leftPadding + "," + topBottomPadding + ")";
 //Create a scale to size bars proportionally to frame
 var yScale = d3.scaleLinear()
     .range([400, 0])
-    .domain([0, 30]);
+    .domain([0, 14]);
 
 //begin script when window loads
 window.onload = setMap();
@@ -392,8 +392,8 @@ function updateChart(bars, n, colorScale){
 function highlight(props){
     //Change stroke
     var selected = d3.selectAll("." + props.adm1_code)
-        .style("stroke", "blue")
-        .style("stroke-width", "2")
+        .style("stroke", "#fec44f")
+        .style("stroke-width", "3.5")
         setLabel(props);
 };
 

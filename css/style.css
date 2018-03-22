@@ -3,25 +3,30 @@ body{
 }
 h4{
     color: whitesmoke;
-    font-family: "Black Ops One";
-    text-align: center;
+    font-family: "Rubik";
+    text-align: center;    
 }
 h1{
     color: whitesmoke;
     text-shadow: whitesmoke;
-    font-family: "Black Ops One";
+    font-family: "Trirong";
     text-align: center;
 }
 #wrapper{
-    width: 100vw;
+    width: 95vw;
 }
 #title{
     width: 40vw;
-    float: left;
+    float: center;
 }
 #army{
-    width: 50vw;
-    float: right;
+    width: 95vw;
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+}
+#military{
+    width: 95vw;
 }
 .states{
     fill: #FFF;
@@ -44,7 +49,7 @@ h1{
     border: none;
 }
 .chartTitle {
-    font-family: "Black Ops One";
+    font-family: "Rubik";
     font-size: 1em;
     font-weight: bold;
 }
@@ -74,7 +79,7 @@ h1{
     top: 175px;
     left: 100px;
     z-index: 10;
-    font-family: "Black Ops One";
+    font-family: "Rubik";
     font-size: 1em;
     font-weight: bold;
     padding: 2px;
@@ -93,14 +98,14 @@ option {
     border: solid thin black;
     padding: 5px 10px;
     top: -75px;
-    font-family: "Black Ops One";
+    font-family: "Rubik";
 }
 .infolabel h1 {
     margin: 0 20px 0 0;
     padding: 0;
     display: inline-block;
     line-height: 1em;
-    font-family: "Black Ops One";
+    font-family: "Rubik";
 }
 .resize{
     height: 150px;

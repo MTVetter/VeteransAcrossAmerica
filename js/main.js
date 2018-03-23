@@ -301,7 +301,7 @@ function changeAttribute(attribute, csvData){
     } else if (expressed == attrArray[5]){
         yScale = d3.scaleLinear()
             .range([400, 0])
-            .domain([0, max + 10]);
+            .domain([0, max + 2]);
     } else if (expressed == attrArray[6]){
         yScale = d3.scaleLinear()
             .range([400, 0])
@@ -309,7 +309,7 @@ function changeAttribute(attribute, csvData){
     } else if (expressed == attrArray[7]){
         yScale = d3.scaleLinear()
             .range([400, 0])
-            .domain([0, max + 5]);
+            .domain([0, max + 4]);
     } else if (expressed == attrArray[8]){
         yScale = d3.scaleLinear()
             .range([400, 0])
@@ -317,11 +317,15 @@ function changeAttribute(attribute, csvData){
     } else if (expressed == attrArray[9]){
         yScale = d3.scaleLinear()
             .range([400, 0])
-            .domain([0, max + 5]);
+            .domain([0, max + 2]);
     } else if (expressed == attrArray[10]){
         yScale = d3.scaleLinear()
             .range([400, 0])
-            .domain([0, max + 5]);
+            .domain([0, max + 1]);
+    } else{
+        yScale = d3.scaleLinear()
+            .range([400, 0])
+            .domain([0, 14]);
     }
 
     //Reset yScale

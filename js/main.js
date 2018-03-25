@@ -1,11 +1,10 @@
 //First line of main.js... wrap everything in a self-executing anonymous function to move to local scope
 (function(){
 //pseudo-global variables
-var attrArray = ["per_veterans", "per_nonveterans","totalpopsqmiles", "populationover18sqmiles", "per_males", "per_females", "per_gulfwar", "per_firstgulfwar", "per_vietnam", "per_korean", "per_wwii"];
+var attrArray = ["per_veterans", "per_nonveterans", "populationover18sqmiles", "per_males", "per_females", "per_gulfwar", "per_firstgulfwar", "per_vietnam", "per_korean", "per_wwii"];
 var expressed = attrArray[0]; //initial attribute
 
 var attrName = {
-    totalpopsqmiles: "Population Per Sq Miles",
     populationover18sqmiles: "Population Over 18 Per Sq Miles",
     per_veterans: "% of Population that are Veterans",
     per_nonveterans: "% of Population that are Non Veterans",
@@ -19,8 +18,8 @@ var attrName = {
 }
 
 //Chart frame dimensions
-var chartWidth = window.innerWidth * 0.425,
-chartHeight = 410,
+var chartWidth = window.innerWidth * 0.95,
+chartHeight = window.innerHeight * 0.4245,
 leftPadding = 25,
 rightPadding = 2,
 topBottomPadding = 5,

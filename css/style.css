@@ -4,7 +4,8 @@ body{
 h4{
     color: whitesmoke;
     font-family: "Rubik";
-    text-align: center;    
+    text-align: center;
+    letter-spacing: 0.05em;    
 }
 h1{
     color: whitesmoke;
@@ -16,17 +17,12 @@ h1{
     width: 95vw;
 }
 #title{
-    width: 40vw;
-    float: center;
-}
-#army{
-    width: 95vw;
-    position: absolute;
-    bottom: 0;
-    margin: 10px;
+    width: 30vw;
+    float: left;
 }
 #military{
-    width: 95vw;
+    width: 55vw;
+    float: right;
 }
 .states{
     fill: #FFF;
@@ -44,7 +40,7 @@ h1{
 }
 .chart {
     float: right;
-    margin: 7px 20px 0 0;
+    margin: 7px 40px 0 0;
     background-color: none;
     border: none;
 }
@@ -58,8 +54,8 @@ h1{
 }
 .chartFrame {
     fill: none;
-    stroke: #000;
-    stroke-width: 3px;
+    stroke: none;
+    stroke-width: 2px;
     shape-rendering: crispEdges;
 }
 .axis path,
@@ -70,14 +66,14 @@ h1{
     shape-rendering: crispEdges;
 }
 .axis text {
-    font-family: sans-serif;
-    font-size: 1em;
+    font-family: "Rubik";
+    font-size: 0.90em;
     fill: #000;
 }
 .dropdown {
     position: absolute;
     top: 155px;
-    left: 100px;
+    left: 120px;
     z-index: 10;
     font-family: "Rubik";
     font-size: 1em;
@@ -108,5 +104,5 @@ option {
     font-family: "Rubik";
 }
 .resize{
-    height: 150px;
+    height: 100px;
 }

@@ -1,28 +1,53 @@
 body{
-    background-color: slategray;
+    background-color: #505050;
 }
 h4{
-    color: whitesmoke;
+    color: #505050;
     font-family: "Rubik";
     text-align: center;
     letter-spacing: 0.05em;    
 }
 h1{
-    color: whitesmoke;
+    color: #505050;
     text-shadow: whitesmoke;
     font-family: "Trirong";
     text-align: center;
 }
 #wrapper{
     width: 95vw;
+    height: 50%;
+    background-color: whitesmoke;
 }
 #title{
     width: 30vw;
     float: left;
+    background-color: whitesmoke;
+    border: 2.5px;
+    border-style: solid;
+    border-color: #74C476;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 #military{
     width: 55vw;
     float: right;
+    background-color: whitesmoke;
+    border: 2.5px;
+    border-style: solid;
+    border-color: #74C476;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 10px;
+}
+#join{
+    width: 55vw;
+    float: right;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: "Rubik";
+    font-weight: bold;
 }
 .states{
     fill: #FFF;
@@ -72,7 +97,7 @@ h1{
 }
 .dropdown {
     position: absolute;
-    top: 155px;
+    top: 185px;
     left: 120px;
     z-index: 10;
     font-family: "Rubik";

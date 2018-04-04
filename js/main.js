@@ -39,7 +39,7 @@ window.onload = setMap();
 function setMap(){
     //map frame dimensions
     var width = window.innerWidth * 0.5,
-        height = 460;
+        height = 340;
 
     //Create new svg container for the map
     var map = d3.select("body")
@@ -288,15 +288,15 @@ function changeAttribute(attribute, csvData){
     } else if (expressed == attrArray[2]){
         yScale = d3.scaleLinear()
             .range([400, 0])
-            .domain([0, max + 100]);
+            .domain([0, max + 19]);
     } else if (expressed == attrArray[3]){
         yScale = d3.scaleLinear()
             .range([400, 0])
-            .domain([0, max + 40]);
+            .domain([0, max + 6]);
     } else if (expressed == attrArray[4]){
         yScale = d3.scaleLinear()
             .range([400, 0])
-            .domain([0, 100]);
+            .domain([0, max + 6]);
     } else if (expressed == attrArray[5]){
         yScale = d3.scaleLinear()
             .range([400, 0])
@@ -317,10 +317,6 @@ function changeAttribute(attribute, csvData){
         yScale = d3.scaleLinear()
             .range([400, 0])
             .domain([0, max + 2]);
-    } else if (expressed == attrArray[10]){
-        yScale = d3.scaleLinear()
-            .range([400, 0])
-            .domain([0, max + 1]);
     } else{
         yScale = d3.scaleLinear()
             .range([400, 0])

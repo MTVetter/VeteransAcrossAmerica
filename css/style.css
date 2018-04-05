@@ -31,10 +31,10 @@ h1{
 #military{
     width: 55vw;
     float: right;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke;
     border: 2.5px;
     border-style: solid;
-    border-color: #74C476;
+    border-color: #74C476; */
     justify-content: space-evenly;
     display: flex;
     margin-top: 10px;

@@ -38,7 +38,7 @@ window.onload = setMap();
 //set up choropleth map
 function setMap(){
     //map frame dimensions
-    var width = window.innerWidth * 0.5,
+    var width = window.innerWidth * 0.95,
         height = 340;
 
     //Create new svg container for the map
@@ -122,7 +122,7 @@ function setChart(csvData, colorScale){
     //Create a text element for the chart title
     var chartTitle = chart.append("text")
         .attr("x", 60)
-        .attr("y", 50)
+        .attr("y", 20)
         .attr("class", "chartTitle")
         //.text("Number of Variable " + expressed[3] + " in each region");
 
